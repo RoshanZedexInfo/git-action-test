@@ -4,4 +4,7 @@
    first-job: 
     runs-on: windows-latest
     steps:
-      - ff
+      - name: Print Hello
+        run: echo "Hello World"
+      - name: Print Goodbye
+        run: echo "Done - die()"
